@@ -16,8 +16,8 @@
   "icon": "assets/carpet-flying/icon.png",
   "environment": "*",
   "entrypoints": {
-    "server": [
-      "pl.kosma.carpetflying.CarpetFlying"
+    "main": [
+      "pl.kosma.carpetflying.CarpetFlyingExtension"
     ]
   },
   "mixins": [

@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
-public class CarpetFlying implements ModInitializer, CarpetExtension {
+public class CarpetFlyingExtension implements ModInitializer, CarpetExtension {
     private static final String MOD_ID = "carpet-flying";
     private static final ModContainer MOD_CONTAINER = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow();
     private static final String MOD_NAME = MOD_CONTAINER.getMetadata().getName();
@@ -21,17 +21,24 @@ public class CarpetFlying implements ModInitializer, CarpetExtension {
 
     private static SettingsManager settingsManager;
 
+    public CarpetFlyingExtension() {
+        CarpetServer.manageExtension(this);
+    }
+
     @Override
     public void onInitialize() {
-        LOGGER.info("Ready for takeoff.");
         settingsManager = new SettingsManager(MOD_VERSION, MOD_ID, MOD_NAME);
-        CarpetServer.manageExtension(new CarpetFlying());
-        LOGGER.info("Cleared for takeoff.");
     }
 
     @Override
     public void onGameStarted() {
         settingsManager.parseSettingsClass(CarpetFlyingSettings.class);
+        LOGGER.info("Cleared for takeoff.");
+    }
+
+    @Override
+    public SettingsManager extensionSettingsManager() {
+        return settingsManager;
     }
 
     @Override
@@ -41,6 +48,6 @@ public class CarpetFlying implements ModInitializer, CarpetExtension {
 
     @Override
     public Map<String, String> canHasTranslations(String lang) {
-        return Translations.getTranslationFromResourcePath("assets/%s/lang/%s.json".formatted(MOD_ID, lang));
+        return Translations.getTranslationFromResourcePath("assets/%s/carpet/lang/%s.json".formatted(MOD_ID, lang));
     }
 }
