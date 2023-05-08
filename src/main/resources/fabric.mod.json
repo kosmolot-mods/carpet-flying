@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-flying",
+  "version": "${version}",
+  "name": "Flying Carpet",
+  "description": "\"Head In The Clouds\" Carpet Additions",
+  "authors": [
+    "Kosmolot"
+  ],
+  "contact": {
+    "website": "https://modrinth.com/mod/carpet-flying",
+    "repo": "https://github.com/kosma/carpet-flying"
+  },
+  "license": "MIT",
+  "icon": "assets/carpet-flying/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "pl.kosma.carpetflying.CarpetFlying"
+    ]
+  },
+  "mixins": [
+    "carpet-flying.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "carpet": ">=1.4.101"
+  }
+}
