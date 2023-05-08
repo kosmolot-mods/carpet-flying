@@ -4,6 +4,7 @@
   "package": "pl.kosma.carpetflying.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EnderDragonEntityMixin",
     "PlayerEntityMixin",
     "ServerPlayerEntityMixin"
   ],

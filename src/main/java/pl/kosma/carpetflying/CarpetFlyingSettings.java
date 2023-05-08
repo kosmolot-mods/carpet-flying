@@ -13,4 +13,7 @@ public class CarpetFlyingSettings {
 
     @Rule(categories = FEATURE)
     public static boolean displayNameVanillaTweaksAFK = false;
+
+    @Rule(categories = FEATURE)
+    public static boolean enderDragonNoGriefing = false;
 }

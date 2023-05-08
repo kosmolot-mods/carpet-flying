@@ -20,3 +20,7 @@ Displays "[bot]" next to a player's name on the Tab screen when the player is a 
 
 Displays "[afk]" next to a player's name on the Tab screen when the player is AFK.
 Requires the corresponding [Vanilla Tweaks datapack](https://vanillatweaks.net/picker/datapacks/).
+
+### enderDragonNoGriefing
+
+Prevent Ender Dragon from breaking any blocks.

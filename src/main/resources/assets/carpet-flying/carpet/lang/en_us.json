@@ -3,5 +3,6 @@
   "carpet-flying.rule.displayNamesOnPlayerList.extra.0": "Required for player list manipulation rules to work.",
   "carpet-flying.rule.displayNameCarpetBot.desc": "Display \"[bot] next to Carpet bot names\".",
   "carpet-flying.rule.displayNameVanillaTweaksAFK.desc": "Display \"[afk] next to AFK player names\".",
-  "carpet-flying.rule.displayNameVanillaTweaksAFK.extra.0": "Requires corresponding Vanilla Tweaks datapack."
+  "carpet-flying.rule.displayNameVanillaTweaksAFK.extra.0": "Requires corresponding Vanilla Tweaks datapack.",
+  "carpet-flying.rule.enderDragonNoGriefing.desc": "Prevent Ender Dragon from breaking any blocks."
 }
