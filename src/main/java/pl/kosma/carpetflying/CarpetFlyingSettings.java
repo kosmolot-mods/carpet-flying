@@ -6,6 +6,9 @@ import static carpet.api.settings.RuleCategory.*;
 
 public class CarpetFlyingSettings {
     @Rule(categories = FEATURE)
+    public static boolean cycleVillagerTrades = false;
+
+    @Rule(categories = FEATURE)
     public static boolean displayNamesOnPlayerList = false;
 
     @Rule(categories = FEATURE)

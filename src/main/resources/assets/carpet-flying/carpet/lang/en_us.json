@@ -1,4 +1,7 @@
 {
+  "carpet-flying.rule.cycleVillagerTrades.desc": "Auto-cycle villager trades every time the trade menu is opened",
+  "carpet-flying.rule.cycleVillagerTrades.extra.0": "(equivalent of breaking and replacing the workstation).",
+  "carpet-flying.rule.cycleVillagerTrades.extra.1": "Allows Trade Cycling Mod-like behavior in vanilla client.",
   "carpet-flying.rule.disablePlayerSpawnCommand.desc": "Disable Carpet's /player spawn command.",
   "carpet-flying.rule.disablePlayerSpawnCommand.extra.0": "Prevents players from abusing it to teleport around.",
   "carpet-flying.rule.displayNamesOnPlayerList.desc": "Show server-side displayNames on player list.",

@@ -7,6 +7,12 @@ I accept suggestions for features of this mod. The weirder, the better.
 
 ## Available rules
 
+### cycleVillagerTrades
+
+Auto-cycle villager trades every time the trade menu is opened,
+(equivalent of breaking and replacing the workstation).
+Allows Trade Cycling Mod-like behavior in vanilla client.
+
 ### disablePlayerSpawnCommand
 
 Disable Carpet's /player spawn command.
