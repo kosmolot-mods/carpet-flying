@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "icon": "assets/carpet-flying/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "server": [
       "pl.kosma.carpetflying.CarpetFlying"
