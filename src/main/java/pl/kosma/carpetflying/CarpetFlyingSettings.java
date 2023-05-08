@@ -16,4 +16,7 @@ public class CarpetFlyingSettings {
 
     @Rule(categories = FEATURE)
     public static boolean enderDragonNoGriefing = false;
+
+    @Rule(categories = FEATURE)
+    public static boolean disablePlayerSpawnCommand = false;
 }

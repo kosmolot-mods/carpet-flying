@@ -1,4 +1,6 @@
 {
+  "carpet-flying.rule.disablePlayerSpawnCommand.desc": "Disable Carpet's /player spawn command.",
+  "carpet-flying.rule.disablePlayerSpawnCommand.extra.0": "Prevents players from abusing it to teleport around.",
   "carpet-flying.rule.displayNamesOnPlayerList.desc": "Show server-side displayNames on player list.",
   "carpet-flying.rule.displayNamesOnPlayerList.extra.0": "Required for player list manipulation rules to work.",
   "carpet-flying.rule.displayNameCarpetBot.desc": "Display \"[bot] next to Carpet bot names\".",

@@ -7,6 +7,11 @@ I accept suggestions for features of this mod. The weirder, the better.
 
 ## Available rules
 
+### disablePlayerSpawnCommand
+
+Disable Carpet's /player spawn command.
+Prevents players from abusing it to teleport around.
+
 ### displayNamesOnPlayerList
 
 Show server-side displayNames on player list.
