@@ -36,7 +36,7 @@ public class CarpetFlying implements ModInitializer, CarpetExtension {
 
     @Override
     public String version() {
-        return MOD_VERSION;
+        return MOD_ID + " " + MOD_VERSION;
     }
 
     @Override
