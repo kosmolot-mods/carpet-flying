@@ -9,7 +9,7 @@ I accept suggestions for features of this mod. The weirder, the better.
 
 ### displayNamesOnPlayerList
 
-Show display names on player list.
+Show server-side displayNames on player list.
 Required for player list manipulation rules to work.
 
 ### displayNameCarpetBot
