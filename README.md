@@ -3,6 +3,8 @@
 Nonsensical set of Carpet rules and additions. Do not expect rhyme nor reason here.
 Watch out for possible loss of marbles. Do not ask too many question. Have a nap.
 
+I accept suggestions for features of this mod. The weirder, the better.
+
 ## Available rules
 
 ### displayNamesOnPlayerList
