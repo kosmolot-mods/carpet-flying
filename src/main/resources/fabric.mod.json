@@ -25,7 +25,7 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": "${minecraft_version}",
+    "minecraft": "${minecraft_dependency}",
     "carpet": ">=${carpet_mod_version}"
   },
   "custom": {
