@@ -17,7 +17,7 @@ public class CarpetFlyingExtension implements ModInitializer, CarpetExtension {
     private static final ModContainer MOD_CONTAINER = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow();
     private static final String MOD_NAME = MOD_CONTAINER.getMetadata().getName();
     private static final String MOD_VERSION = MOD_CONTAINER.getMetadata().getVersion().getFriendlyString();
-    private static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     private static SettingsManager settingsManager;
 
