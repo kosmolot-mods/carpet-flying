@@ -23,6 +23,7 @@
   "mixins": [
     "carpet-flying.mixins.json"
   ],
+  "accessWidener" : "carpet-flying.accesswidener",
   "depends": {
     "fabricloader": ">=${loader_version}",
     "minecraft": "${minecraft_dependency}",

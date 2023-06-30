@@ -22,4 +22,7 @@ public class CarpetFlyingSettings {
 
     @Rule(categories = FEATURE)
     public static boolean disablePlayerSpawnCommand = false;
+
+    @Rule(categories = FEATURE)
+    public static boolean perPlayerViewDistance = false;
 }

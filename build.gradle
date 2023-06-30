@@ -22,6 +22,10 @@ dependencies {
     modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
+loom {
+    accessWidenerPath = file("src/main/resources/carpet-flying.accesswidener")
+}
+
 processResources {
     filteringCharset "UTF-8"
 

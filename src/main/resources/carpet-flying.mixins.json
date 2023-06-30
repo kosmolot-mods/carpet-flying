@@ -8,6 +8,8 @@
     "PlayerCommandMixin",
     "PlayerEntityMixin",
     "ServerPlayerEntityMixin",
+    "ThreadedAnvilChunkStorageMixin",
+    "ThreadedAnvilChunkStorageMixin$EntityTrackerMixin",
     "VillagerEntityMixin"
   ],
   "injectors": {
